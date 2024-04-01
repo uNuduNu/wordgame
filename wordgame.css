@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.wordgame {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.wordgame-header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.correct {
+    background-color: chartreuse;
+}
+
+.close {
+    background-color: darkgoldenrod;
+}
+
+.wrong {
+    background-color: gray;
+}
+
+.wordgame-words {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.letter {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.result {
+    font-size: 40px;
+    text-align: center;
+}
+
+.reset-button {
+    width: 100%;
+}
